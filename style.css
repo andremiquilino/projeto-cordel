@@ -82,6 +82,7 @@ div.img{
     padding-top: 81px;
     padding-left: 54px;
     box-shadow: 10px 5px 12px black;
+    box-shadow: inset 0px 5px 8px black;
 }
 div.img p{
     background-color: rgba(21, 19, 19, 0.64);
