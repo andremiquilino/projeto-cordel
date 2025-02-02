@@ -20,21 +20,6 @@ nav{
     padding: 10px;
     font-size: 27px;
 }
-header{
-    color: aliceblue;
-    background-image: url(imagens/cordel.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    max-height: 69vh;
-    max-width: 76.5vh;
-    background-position: right center;
-    margin: -10px;
-    padding-top: 30px;
-    font-size: 27px;
-    padding-left: 51px;
-    padding-bottom: 68px;
-    box-shadow: 10px 5px 12px black;
-}
 main a{
     text-decoration: none;
    color: blueviolet;
@@ -66,29 +51,38 @@ p{
     line-height: 2em;
     padding-left: 20px;
 }
+header{
+    background-image: url(imagens/cordel.jpg);
+    height: 90vh;
+    width: 100%;
+    margin-left: -10px;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 header p{
+    display: inline-block;
     background-color: rgba(21, 19, 19, 0.64);
     max-width:400px;
     max-height: 400px;
     box-shadow: 4px 3px 10px rgb(11, 10, 10);
+    color: aliceblue;
+    margin: 110px 50px 10px 51px;
 }
 div.img{
-    background-image: url(imagens/background002.jpg);
-    height: 69vh;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: right center;
-    max-width: 74vh;
-    padding-top: 35px;
-    padding-left: 46px;
-    padding-right: 19px;
-    padding-bottom: 72px;
-    box-shadow: 10px 5px 12px black;
-    box-shadow: inset 0px 5px 8px black;
+   background-image: url(imagens/background002.jpg);
+   height: 90vh;
+   background-size: cover;
+   background-position: right center;
+   background-attachment: fixed;
+
 }
 div.img p{
+    display: inline-block;
     background-color: rgba(21, 19, 19, 0.64);
     width: 380px;
     color: aliceblue;
     box-shadow: 4px 5px 10px black;
+    margin: 79px 10px 10px 67px;
 }
