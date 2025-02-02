@@ -89,8 +89,10 @@ div.img p{
 @media screen and (max-width:600px) {
     div.img p{
         margin-left: 15px;
+        flex-direction: column;
     }
     main{
         margin: -20px -9px 10px -15px;
+        flex-direction: column;
     }
 }
