@@ -12,7 +12,7 @@ main{
     text-align: center;
     font-family: var(--fonte-destaque);
     padding: 1px;
-    margin: -35px;
+    margin: -35px 4px -35px 4px;
     font-size: 35px;
 }
 nav{
@@ -25,13 +25,14 @@ header{
     background-image: url(imagens/cordel.jpg);
     background-size: cover;
     background-attachment: fixed;
-    height: 70vh;
+    max-height: 69vh;
+    max-width: 76.5vh;
     background-position: right center;
     margin: -10px;
-    padding: 5px;
+    padding-top: 30px;
     font-size: 27px;
-    padding-left: 50px;
-    padding-top: 150px;
+    padding-left: 51px;
+    padding-bottom: 68px;
     box-shadow: 10px 5px 12px black;
 }
 main a{
@@ -67,18 +68,19 @@ p{
 }
 header p{
     background-color: rgba(21, 19, 19, 0.64);
-    width: 400px;
-    height: 400px;
+    max-width:400px;
+    max-height: 400px;
     box-shadow: 4px 3px 10px rgb(11, 10, 10);
 }
 div.img{
     background-image: url(imagens/background002.jpg);
-    height: 70vh;
+    height: 69vh;
     background-size: cover;
     background-attachment: fixed;
     padding-right: 10px;
     margin: -10px;
     background-position: right center;
+    max-width: 74vh;
     padding-top: 81px;
     padding-left: 54px;
     box-shadow: 10px 5px 12px black;
