@@ -86,3 +86,11 @@ div.img p{
     box-shadow: 4px 5px 10px black;
     margin: 79px 10px 10px 67px;
 }
+@media screen and (max-width:600px) {
+    div.img p{
+        margin-left: 15px;
+    }
+    main{
+        margin: -20px -9px 10px -15px;
+    }
+}
