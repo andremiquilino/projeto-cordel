@@ -12,7 +12,7 @@ main{
     text-align: center;
     font-family: var(--fonte-destaque);
     padding: 1px;
-    margin: -35px 4px -35px 4px;
+    margin: -35px 1px -35px -8px;
     font-size: 35px;
 }
 nav{
@@ -77,12 +77,12 @@ div.img{
     height: 69vh;
     background-size: cover;
     background-attachment: fixed;
-    padding-right: 10px;
-    margin: -10px;
     background-position: right center;
     max-width: 74vh;
-    padding-top: 81px;
-    padding-left: 54px;
+    padding-top: 35px;
+    padding-left: 46px;
+    padding-right: 19px;
+    padding-bottom: 72px;
     box-shadow: 10px 5px 12px black;
     box-shadow: inset 0px 5px 8px black;
 }
