@@ -52,6 +52,7 @@ p{
     padding-left: 20px;
 }
 header{
+    display: inline;
     background-image: url(imagens/cordel.jpg);
     height: 90vh;
     width: 100%;
@@ -79,7 +80,7 @@ div.img{
 
 }
 div.img p{
-    display: inline-block;
+    display: inline;
     background-color: rgba(21, 19, 19, 0.64);
     width: 380px;
     color: aliceblue;
