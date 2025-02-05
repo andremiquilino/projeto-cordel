@@ -36,7 +36,7 @@ div.img1{
     display: inline-block;
     background-color: rgb(55, 52, 52);
     padding: 10px;
-    margin-top: 120px;
+    margin-top: 100px;
     margin-left: 61px;
     font-size: 18px;
     line-height: 1.5em;
@@ -58,7 +58,7 @@ div.img2 > p{
     line-height: 1.5em;
     padding: 10px;
     margin-left: 42px;
-    margin-top: 125px;
+    margin-top: 100px;
 }
 nav{
     background-color: black;
