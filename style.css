@@ -1,99 +1,68 @@
 @charset "UTF-8";
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&display=swap');
-
-:root{
-    --fonte-padrão: Arial, Verdana, Helvetica,sans-serif;
-    --fonte-destaque:"Passion One", serif;
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 main{
     background-color: black;
     color: aliceblue;
     text-align: center;
-    font-family: var(--fonte-destaque);
-    padding: 1px;
-    margin: -35px 1px -35px -8px;
-    font-size: 35px;
-}
-nav{
-    margin: 10px;
+    margin-left: -7px;
+    margin-right: -6px;
     padding: 10px;
-    font-size: 27px;
+    font-variant: small-caps;
+    text-transform: uppercase;
 }
-main a{
+a{
     text-decoration: none;
-   color: blueviolet;
+    color: blueviolet;
 }
 a:hover{
     text-decoration: underline;
-    color: blueviolet;
-}
-a:active{
-    color: blue;
-}
-footer{
-    color: aliceblue;
-    background-color: black;
-    margin: -5px;
-}
-footer a{
-    text-decoration: none;
-   color: blueviolet;
-}
-a:hover{
-    text-decoration: underline;
-    color: blueviolet;
-}
-a:active{
     color: blue;
 }
 p{
-    line-height: 2em;
-    padding-left: 20px;
+    font-weight: bold;
 }
-header{
-    display: inline;
-    background-image: url(imagens/cordel.jpg);
-    height: 90vh;
-    width: 100%;
-    margin-left: -10px;
+div.img1{
+    background: url(imagens/cordel.jpg);
+    height: 85vh;
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
-}
-
-header p{
+    color: aliceblue;
+    margin-left: -8px;
+    margin-right: -8px;
+}div.img1 > p{
     display: inline-block;
-    background-color: rgba(21, 19, 19, 0.64);
-    max-width:400px;
-    max-height: 400px;
-    box-shadow: 4px 3px 10px rgb(11, 10, 10);
+    background-color: rgb(55, 52, 52);
+    padding: 10px;
+    margin-top: 120px;
+    margin-left: 61px;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+div.img2{
+    height: 85vh;
+    background: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+div.img2 > p{
+    display: inline-block;
+    background-color: rgb(55, 52, 52);
     color: aliceblue;
-    margin: 110px 50px 10px 51px;
+    font-size: 18px;
+    line-height: 1.5em;
+    padding: 10px;
+    margin-left: 42px;
+    margin-top: 125px;
 }
-div.img{
-   background-image: url(imagens/background002.jpg);
-   height: 90vh;
-   background-size: cover;
-   background-position: right center;
-   background-attachment: fixed;
-
-}
-div.img p{
-    display: inline;
-    background-color: rgba(21, 19, 19, 0.64);
-    width: 380px;
+nav{
+    background-color: black;
     color: aliceblue;
-    box-shadow: 4px 5px 10px black;
-    margin: 79px 10px 10px 67px;
-}
-@media screen and (max-width:600px) {
-    div.img p{
-        margin-left: 15px;
-        flex-direction: column;
-    }
-    main{
-        margin: -20px -9px 10px -15px;
-        flex-direction: column;
-    }
+    text-align: center;
+    margin: -7px;
 }
